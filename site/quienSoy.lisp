@@ -12,6 +12,7 @@
         (div :class "ui container"
           (a :class "item" :href "index.html" "Home")
           (a :class "active item" :href "quienSoy.html" "¿Quien soy?")
+          (a :class "item" "Blog")
           (a :class "item" "Documentos")
           (a :class "item" :href "http://egbaquela.blogspot.com" "Mi viejo blog")
           (a :class "item" "Modelizando sistemas")
@@ -22,6 +23,7 @@
       (div :class "ui vertical inverted sidebar menu"
         (a :class "item" :href "index.html" "Home")
         (a :class "active item" :href "quienSoy.html" "¿Quien soy?")
+        (a :class "item" "Blog")
         (a :class "item" "Documentos")
         (a :class "item" :href "http://egbaquela.blogspot.com" "Mi viejo blog")
         (a :class "item" "Modelizando sistemas")

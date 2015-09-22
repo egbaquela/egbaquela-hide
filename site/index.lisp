@@ -12,6 +12,7 @@
         (div :class "ui container"
           (a :class "active item" :href "index.html" "Home")
           (a :class "item" :href "quienSoy.html" "¿Quien soy?")
+          (a :class "item" "Blog")
           (a :class "item" "Documentos")
           (a :class "item" :href "http://egbaquela.blogspot.com" "Mi viejo blog")
           (a :class "item" "Modelizando sistemas")
@@ -22,6 +23,7 @@
       (div :class "ui vertical inverted sidebar menu"
         (a :class "active item" :href "index.html" "Home")
         (a :class "item" :href "quienSoy.html" "¿Quien soy?")
+        (a :class "item" "Blog")
         (a :class "item" "Documentos")
         (a :class "item" :href "http://egbaquela.blogspot.com" "Mi viejo blog")
         (a :class "item" "Modelizando sistemas")
@@ -40,6 +42,7 @@
               )
               (a :class "active item" :href "index.html" "Home")
               (a :class "item" :href "quienSoy.html" "¿Quien soy?")
+              (a :class "item" "Blog")
               (a :class "item" "Documentos")
               (a :class "item" :href "http://egbaquela.blogspot.com" "Mi viejo blog")
               (a :class "item" "Modelizando sistemas")
@@ -86,7 +89,6 @@
             )
           )
         )
-
 
         (inc "incFooter.lisp")
       ) ;; div pusher
