@@ -61,6 +61,11 @@
       display: none;
     }
 
+    .container .toc.item {
+      display: none;
+    }
+
+
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
         display: none !important;
@@ -72,6 +77,10 @@
       .secondary.pointing.menu .toc.item {
         display: block;
       }
+      .container .toc.item {
+        display: block;
+      }
+
       .masthead.segment {
         min-height: 350px;
       }
