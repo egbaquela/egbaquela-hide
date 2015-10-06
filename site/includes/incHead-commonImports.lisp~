@@ -13,8 +13,8 @@
   )
   ;; Importo archivos prism para formateo de código
   (if (eq %isIndexPage% 'yes)
-      (link :rel "stylesheet" :type "text/css" :href "css/prism.css")
-    (link :rel "stylesheet" :type "text/css" :href "../css/prism.css")
+      (script :src "css/prism.css" :rel "stylesheet")
+    (script :src "../css/prism.css" :rel "stylesheet")
   )
   (if (eq %isIndexPage% 'yes)
       (script :src "js/prism.js")

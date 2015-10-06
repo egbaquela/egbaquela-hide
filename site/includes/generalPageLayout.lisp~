@@ -11,7 +11,7 @@
       (inc "incFollowingMenu.lisp")
 
       ;; Sidebar Menu
-      (inc "incSidebarMenu.lisp")
+      (inc "incSidebarMenu.Lisp")
 
 
       ;; Page Contents 

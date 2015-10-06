@@ -1,6 +1,8 @@
 (tvar 
   (
     %isIndexPage% 'no
+    %menuActivo% 'quienSoy
+    %currentDir% 'pages
     %tituloArticulo% "¿Quien soy?"
     %textoArticulo%
     (cat
