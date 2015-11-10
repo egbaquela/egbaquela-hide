@@ -7,11 +7,14 @@
     %contenido%
     (cat
 
-      (h3 :class "ui header" "Listado de artículos del blog")
+      
       (div :ng-app "indiceApp" :ng-controller "indiceCtrl as vc"
 
         ;; Filtros Indice de artículos
-        (div :class "ui vertical segment"
+        (div :class "ui vertical stripe segment"
+          
+          (h3 :class "ui centered header" "Listado de artículos del blog")
+          
           (div :class "ui labeled input"
             (div :class "ui label" :id "labelnombre"
               "Titulo"
@@ -46,7 +49,7 @@
             (div :class "ui middle aligned stackable grid container"
               (div :class "row"
                 (div :class "six wide left floated column"
-                  (img :src "img/figura01.png" :class "ui large bordered rounded image")
+                  (img :src "img/figura01.png" :class "ui small bordered rounded image")
                 )
                 (div :class "eight wide column"
                   (h3 :class "ui header" "{{post.tituloArticulo}}")
