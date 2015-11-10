@@ -1,0 +1,6 @@
+Cannot find xml2-config
+ERROR: configuration failed for package ‘XML’
+* removing ‘/home/user/R/x86_64-redhat-linux-gnu-library/3.0/XML’
+Warning in install.packages :
+  installation of package ‘XML’ had non-zero exit status
+

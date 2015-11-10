@@ -1,18 +1,5 @@
-(defun code-to-html (path)
-(pre (code :class "language-python"
-  (setq aux-list (list ""))
-  (with-open-file
-   (input-stream path :direction :input)
-   (dotimes (i 1000)
-     (let ((x (read-line input-stream nil nil)))
-       (if (null x) (return)) ;; break out of the 'dotimes' loop
-       ;;;(+ 1 1))))
-       (setq aux-list (concatenate '(list) aux-list (list (cont x) #\Newline))))))
-  aux-list     
-))
-
-)
-
+;; Cargo las funciones de procesamiento de archivos de código
+(load "../lib/generalFunc")
 (tvar 
   (
     %isIndexPage% 'no
@@ -21,10 +8,10 @@
     %tituloArticulo% "Xlsxwriter: escribiendo archivos Excel desde Python"
     %fechaCreacion% '20151002
     %fechaUltimaEdicion% '20151002    
-    %etiquetas% '(python excel linux xlsxwriter)
+    %etiquetas% '(python excel linux xlsxwriter tips pythonTips)
     %resumen% 
     (cat
-      (p "Como comentaba en el primer post de esta " (a :href "20150921-volviendoDesdeCero.html" "nueva etapa") " actualmente con lo que mas estoy progrando es con Python. Y me surgió el problema de tener que generar archivos de Excel desde Linux. Y tras una búsqueda muy corta en Google, me encontré con " (a :href "http://www.python-excel.org/" "esta página.") " Muy buena idea la de armar un guía así. Y buscando encontré lo que necesitaba: " (a :href "#" "xlsxwriter.")
+      (p "Como comentaba en el primer post de esta nueva etapa, actualmente con lo que mas estoy progrando es con Python. Y me surgió el problema de tener que generar archivos de Excel desde Linux."
       )
     )
     %textoArticulo%

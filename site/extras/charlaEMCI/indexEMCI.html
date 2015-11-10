@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Matemática en Ingeniería Industrial</title>
+
+		<meta name="description" content="Una introducción a las aplicaciones de la Matemática en el ámbito de la Ingeniería Industrial">
+		<meta name="author" content="Enrique Gabriel Baquela" >
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			    <!-- Primera Diapositiva - Portada -->
+				<section>
+					<h2>Matemática en Ingeniería Industrial</h2>
+					<h3>GISOI</h3>
+					<p>
+						<small>Grupo de Investigación en Simulación y Optimización Industrial</small>
+					</p>
+					
+					<p>
+						<small>Dpto. Ingeniería Industrial</small>
+					</p>
+				</section>
+				
+				<section>
+					<h2>Preguntas</h2>
+					<ul>
+                                        	<li>¿Con que problemas trata el Ingeniero Industrial?</li>
+                                        	<li>¿Que matemática usamos?</li>
+                                        	<li>¿Para que usamos la matemática?</li>
+                                        	<li>¿Como utilizamos la matemática?</li>
+                                        <ul>
+				</section>
+				
+				<!-- Conjunto de diapositivas "¿Con que problemas trata el Ingeniero Industrial?" -->
+				<section>
+					<section>
+						<h2>¿Con que problemas trata el Ingeniero Industrial?</h2>
+						<ul>
+							<li>Sistemas Socio-Técnicos</li>
+							<li>Discretos</li>
+							<li>No lineales</li>
+							<li>Estocásticos</li>	
+							<li>Con altas dosis de incertidumbre</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Conjunto de diapositivas "¿Que matematica utilizamos?" -->
+				<section>
+					<section>
+						<h2>¿Que Matemática usamos en Ingeniería Industrial?</h2>
+						<ul>
+							<li>Estadística</li>
+							<li>Optimización Matemática</li>
+							<li>Simulacion</li>
+							<li>Algoritmia</li>
+							<li>Matemática Discreta</li>	
+							<li>...</li>	
+						</ul>
+					</section>
+				</section>
+
+				<!-- Conjunto de diapositivas "¿Para que utilizamos la matemática?" -->
+				<section>
+					<section>
+						<h2>¿Para que utilizamos la Matemática en Ingeniería Industrial?</h2>
+						<ul>
+							<li>Armar planes de producción</li>
+							<li>Diseñar redes logística</li>
+							<li>Programar rutas de camiones</li>	
+							<li>Análisis de impacto económico</li>	
+							<li>Predicción de demanda</li>	
+							<li>Control de desvíos</li>
+							<li>Detección de irregularidades</li>		
+							<li>...</li>	
+						</ul>
+					</section>
+					<section>
+						<h2>Control de desvíos en un proceso</h2>
+						<img src="img/controlMedia.gif" alt="">
+					</section>
+					<section>
+						<h2>Análisis del impacto ambiental en zona urbana de la emisión de gases por parte de una fábrica</h2>
+						<img src="img/simulDifusion.png" alt="">
+					</section>
+					<section>
+						<h2>Simulación de asignación de tareas a equipos de trabajo</h2>
+						<img src="img/simulArmadoGrupos.png" alt="">
+					</section>
+					<section>
+						<h2>Ruteo de flota de vehículos</h2>
+						<img src="img/vrp.png" alt="">
+					</section>
+					<section>
+						<h2>Ruteo de flota de vehículos</h2>
+						<img src="img/vrpMap.jpg" alt="">
+					</section>
+					<section>
+						<h2>Empaquetamiento</h2>
+						<img src="img/TrialCubePacking.gif" alt="">
+					</section>
+					<section>
+						<h2>Empaquetamiento</h2>
+						<img src="img/3dpack.gif" alt="">
+					</section>
+					<section>
+						<h2>Empaquetamiento</h2>
+						<img src="img/3dPack2.gif" alt="">
+					</section>
+					<section>
+						<h2>Simulación de tráfico</h2>
+						<img src="img/simulTrafico.png" alt="">
+					</section>
+				</section>
+
+				<!-- Conjunto de diapositivas "¿Como utilizamos la matemática?" -->
+				<section>
+					<section>
+						<h2>¿Como utilizamos la Matemática en Ingeniería Industrial?</h2>
+						<ul>
+							<li>Recolección de datos</li>
+							<li>Modelado y resolución</li>
+							<li>Sistematización</li>	
+							<li>Control</li>	
+						</ul>
+					</section>
+					<section>
+						<h2>Recolección de datos</h2>
+						<ul>
+							<li>Sistemas aleatorios</li>
+							<li>Implica utilizar estadística para poder captar los datos necesarios y correctos.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Modelado y resolución</h2>
+						<p>Dependiendo del problema: </p>
+						<ul>
+							<li>Estadística</li>
+							<li>Programación Matemática</li>
+							<li>Heurísticas</li>
+							<li>Otros</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Sistematización</h2>
+						<ul>
+							<li>Sistemas aleatorios</li>
+							<li>Implica utilizar estadística para sintetizar y evaluar los resultados.</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Control</h2>
+						<ul>
+							<li>Sistemas aleatorios</li>
+							<li>Implica utilizar estadística para verificar el correcto desempeño del sistema.</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<!-- Conjunto de diapositivas "Estadística" -->
+				<section>
+					<section>
+						<h2>¿Cual es la rama de la Matemática mas utilizada en Ingeniería Industrial?</h2>
+						<ul>
+							<li><strike>Cálculo</strike></li>
+							<li><em><strong>Estadística</strong></em></li>
+						</ul>
+					</section>
+					<section>
+						<h2>¿Que herramientas de estadística utilizamos?</h2>
+						<ul>
+							<li>Estadistica Frecuentista</li>
+							<li>Estadistica Bayesiana</li>
+							<li>Series de Tiempo</li>
+							<li>Regresión Lineal</li>
+						</ul>
+					</section>
+					<section>
+						<h2>¿Que herramientas de estadística utilizamos?</h2>
+						<ul>
+							<li>Regresión Logística</li>
+							<li>Estadística no paramétrica</li>
+							<li>Algoritmos de clasificación</li>
+							<li>Monte Carlo Markov Chain</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Conjunto de diapositivas "¿Que falta en la formación de un II?" -->
+				<section>
+					<section>
+						<h2>¿Que se podría mejorar en los planes de estudio?</h2>
+						<ul>
+							<li><em><strong>Primero, mas Estadística</strong></em></li>
+						</ul>
+					</section>
+					<section>
+						<h2>¿Que hay que mejorar en los planes de estudio?</h2>
+						<ul>
+							<li><em>Segundo, mas Investigación Operativa</em></li>
+						</ul>
+					</section>
+					<section>
+						<h2>¿Que hay que mejorar en los planes de estudio?</h2>
+						<ul>
+							<li><em>Tercero, mas programación</em> (o muchos, muchos softwares)</li>
+						</ul>
+					</section>
+					<section>
+						<h2>¿Por que programación?</h2>
+						<ul>
+							<li>Imposible de realizar análisis estadísticos a mano en la practica</li>
+							<li>Excel es útil pero bastante limitado algunas veces</li>
+							<li>No se puede optimizar ni simular un problema real sin programar</li>
+							<li>Existe R (y Python)</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Gracias</h2>
+					<p><a href="http://www.gisoiweb.com.ar">www.gisoiweb.com.ar</a></p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -60,7 +60,7 @@
     );;Cierre del cat
     
     %contenidoAdicional% ""
-  );;Fin de la declarción de variables
+  );;Fin de la declaración de variables
 
   (echo
     (inc "includes/generalPageLayout.lisp")

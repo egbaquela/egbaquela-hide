@@ -6,7 +6,12 @@
     %tituloArticulo% "Volviendo desde cero"
     %fechaCreacion% '20150921
     %fechaUltimaEdicion% '20151001    
-    %etiquetas% '(lisp hyde blog)  
+    %etiquetas% '(lisp hyde blog) 
+    %resumen% 
+    (cat
+      (p "Después de casi dos años de sequía, y un reciene hackeo de la web antigua, vuelvo con todas las fuerzas. Obvio que no vamos a echar la culpa a otros, estuve muy, pero muy sobrecargado de tareas y siempre postergué el escribir acá, pero ya estoy de nuevo."
+      )
+    ) 
     %textoArticulo%
     (cat
       (p "Después de casi dos años de sequía, y un reciene hackeo de la web antigua, vuelvo con todas las fuerzas. Obvio que no vamos a echar la culpa a otros, estuve muy, pero muy sobrecargado de tareas y siempre postergué el escribir acá, pero ya estoy de nuevo.")
