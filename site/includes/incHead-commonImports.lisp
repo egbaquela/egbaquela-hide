@@ -20,4 +20,8 @@
       (script :src "js/prism.js")
     (script :src "../js/prism.js")
   )
+  (if (eq %isIndexPage% 'yes)
+      (script :src "js/angular.min.js")
+    (script :src "../js/angular.min.js")
+  )
 )

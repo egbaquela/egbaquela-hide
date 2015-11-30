@@ -6,7 +6,8 @@
     %currentDir% 'root
     %contenido%
     (cat
-
+      ;;Div para asignar gradiente en masthead
+      (div :id "firstPage"
       ;;Splash principal de la página
       (div :class "ui violet inverted vertical masthead center aligned segment"
 
@@ -56,7 +57,7 @@
           )
         )
       )
-
+      )
     );;Cierre del cat
     
     %contenidoAdicional% ""

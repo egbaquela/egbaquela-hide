@@ -91,7 +91,8 @@
             {'tituloArticulo':'Instalando el paquete XML en R', 'resumenArticulo':'Esta entrada es un tip para instalar el paquete XML en R bajo Fedora Linux.', 'linkArticulo':'20151025-instalandoXMLEnR.html', 'fechaCreacion': '20151025', 'etiquetasArticulo':''},
             {'tituloArticulo':'Tutorial de Emacs', 'resumenArticulo':'Link a excelente tutorial de EMACS.', 'linkArticulo':'20151031-tutorialEmacs.html', 'fechaCreacion': '20151031', 'etiquetasArticulo':''},
             {'tituloArticulo':'Como justificar el gasto en ciencia', 'resumenArticulo':'Acerca de la utilidad de la ciencia.', 'linkArticulo':'20151121-comoJustificarElGastoEnCiencia.html', 'fechaCreacion': '20151121', 'etiquetasArticulo':''},
-            {'tituloArticulo':'Curso copado de Python', 'resumenArticulo':'Recursos para aprender Python.', 'linkArticulo':'20151126-recursosParaAprenderPython.html', 'fechaCreacion': '20151126', 'etiquetasArticulo':''}
+            {'tituloArticulo':'Curso copado de Python', 'resumenArticulo':'Recursos para aprender Python.', 'linkArticulo':'20151126-recursosParaAprenderPython.html', 'fechaCreacion': '20151126', 'etiquetasArticulo':''},
+            {'tituloArticulo':'Configuración de EMACS para programar en Python', 'resumenArticulo':'Tutorial inicial de configuracion de EMACS para programar en Python.', 'linkArticulo':'20151130-configurandoEmacsParaPython.html', 'fechaCreacion': '20151130 ', 'etiquetasArticulo':''}
           ];
 
         });
