@@ -11,13 +11,13 @@
       (div :ng-app "indiceApp" :ng-controller "indiceCtrl as vc"
 
         ;; Filtros Indice de artículos
-        (div :class "ui vertical stripe segment"
+        (div :class "ui vertical stripe segment container"
           
           (h3 :class "ui centered header" "Listado de artículos del blog")
           
           (div :class "ui labeled input"
             (div :class "ui label" :id "labelnombre"
-              "Titulo"
+              "Titulo" 
             )
             (input :id "filtroNombre" :placeholder "Nombre" :type "text" :ng-model "vc.filtroTituloArticulo"
             )
@@ -96,7 +96,8 @@
             {'tituloArticulo':'Programando Apps en LambdaNative (01)', 'resumenArticulo':'Primer post acerca de la programación de apps multiplataformas con lambdaNative.', 'linkArticulo':'20151226-programandoAppsEnLambdaNative-01.html', 'fechaCreacion': '20151226 ', 'etiquetasArticulo':''},
             {'tituloArticulo':'Acceder a un escritorio remoto desde Fedora con rdesktop', 'resumenArticulo':'Acceso a un escritorio remoto desde Fedora con rdesktop.', 'linkArticulo':'20151229-accesoAEscritorioRemotoDesdeFedora.html', 'fechaCreacion': '20151229', 'etiquetasArticulo':''},
             {'tituloArticulo':'Instalando Mongo DB en Fedora', 'resumenArticulo':'Referencias para instalar y ejecutar Mongo DB en Fedora.', 'linkArticulo':'20160104-instalacionDeMongodbEnFedora.html', 'fechaCreacion': '20160104', 'etiquetasArticulo':''},
-            {'tituloArticulo':'Detectando secuencias de elementos iguales en R', 'resumenArticulo':'Detección de bloques de sub-repeticiones en R.', 'linkArticulo':'20160108-detectandoSecuenciasDeElementosIgualesEnR.html', 'fechaCreacion': '20160108', 'etiquetasArticulo':''}
+            {'tituloArticulo':'Detectando secuencias de elementos iguales en R', 'resumenArticulo':'Detección de bloques de sub-repeticiones en R.', 'linkArticulo':'20160108-detectandoSecuenciasDeElementosIgualesEnR.html', 'fechaCreacion': '20160108', 'etiquetasArticulo':''},
+            {'tituloArticulo':'Programando Apps con Cordova-IONIC 01 - Utilizando Ripple', 'resumenArticulo':'Pseudo-Emulacion de app movil en el navegador para validar desarrollos en Cordova-IONIC.', 'linkArticulo':'20160110-programandoAppsEnCordova-IONIC-01-UsandoRipple.html', 'fechaCreacion': '20160110', 'etiquetasArticulo':''}
           ];
 
         });
