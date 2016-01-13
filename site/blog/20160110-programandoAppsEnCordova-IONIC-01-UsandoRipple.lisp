@@ -25,7 +25,7 @@
       ))
       (p "Lo cual nos abre nuestro navegador predeterminado con la emulación de nuestra app. Para instalar Ripple tenemos que tener 'node' instalado en nuestra compu y tipear:"
       )
-      (pre (code (cont "sudo npm install -g ripple") #\Newline
+      (pre (code (cont "sudo npm install -g ripple-emulator") #\Newline
       ))
       ;;CHEQUEUAR EL CODIGO DE INSTALACION
     )
